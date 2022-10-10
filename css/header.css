@@ -1,0 +1,44 @@
+header {
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--gray-background);
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.link {
+    height: fit-content;
+}
+
+.link img {
+    color: black;
+}
+
+nav ul {
+    display: flex;
+    gap: 24px;
+}
+
+nav a {
+    color: var(--paragraph);
+
+}
+
+.button-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    width: 167px;
+    height: 40px;
+    border: 1px solid #495057;
+    border-radius: 40px;
+}
+
+.button-header a {
+    color: black;
+    font-size: 16px;
+}
