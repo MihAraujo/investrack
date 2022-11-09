@@ -1,29 +1,43 @@
 #home{
     background-color: var(--gray-background);
+    height: 50vh;
+    display: flex;
+    padding-left: 170px;
+    padding-right: 170px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-container{
+    display: flex;
+    height: 60%;
+    justify-content: center;
+    align-items: center;
 }
 
 .text-home{
     display: flex;
     flex-direction: column;
     gap: 16px;
+    height: fit-content;
 }
 
-h3{
+.home-welcome{
     color: var(--brand-blue);
-    font-size: 14px;
+    font-size: 24px;
 }
 
-h1{
+.home-title{
     color: var(--headline);
-    font-size: 52px;
+    font-size: 70px;
     font-weight: 400;
 }
 
-h2{
+.home-subtitle{
     color: var(--paragraph);
-    font-size: 18px;
+    font-size: 30px;
     font-weight: 400;
-    width: 660px;
+    width: 1000px;
 }
 
 .button-home{
@@ -33,12 +47,50 @@ h2{
     align-items: center;
     padding: 16px;
     width: 216px;
-    height: 40px;
+    height: 50px;
     left: 80px;
     top: 355px;
     background: var(--brand-blue);
     border: none;
     border-radius: 40px;
     color: white;
+    font-size: 20px;
+    margin-top: 32px;
+}
+
+.img_home{
+    height: 632px;
+    width: 632px;
+    display: flex;
+}
+
+#sobre_nos{
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    padding-left: 170px;
+    padding-right: 170px;
+    justify-content: space-between;
+}
+
+
+.sobre_nos_text{
+    color: var(--brand-blue);
+    font-size: 18px;
+    margin-top: 30px;
+    height: fit-content;
+}
+
+.img_sobre_nos{
+    height: 632px;
+    width: 632px;
+}
+
+.investrack_title{
+    color: var(--headline);
+}
+
+.investrack-text{
+    color: var(--paragraph);
     font-size: 18px;
 }
